@@ -9,23 +9,24 @@
 
     <ImageView
         android:id="@+id/pie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/logosin"
+        android:layout_width="41dp"
+        android:layout_height="61dp"
+        android:contentDescription="@string/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.904"
-        app:layout_constraintStart_toEndOf="@+id/SinVolver"
+        app:layout_constraintStart_toEndOf="@+id/sinVolver"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.027"
         app:srcCompat="@drawable/pie" />
 
     <ImageButton
-        android:id="@+id/SinVolver"
+        android:id="@+id/sinVolver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#00FFFFFF"
-        android:contentDescription="@string/volversin"
+        android:contentDescription="@string/volver"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.071"

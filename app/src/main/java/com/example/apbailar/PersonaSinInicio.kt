@@ -18,7 +18,7 @@ class PersonaSinInicio : AppCompatActivity() {
         union = ActivityPersonaSinInicioBinding.inflate(layoutInflater)
         setContentView(union.root)
 
-        union.SinVolver.setOnClickListener(this::voler)
+        union.sinVolver.setOnClickListener(this::voler)
     }
 
     private fun voler (view: View){

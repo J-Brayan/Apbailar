@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/persona_bienvenida"
-        android:layout_width="371dp"
-        android:layout_height="198dp"
+        android:layout_width="375dp"
+        android:layout_height="200dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="@string/div_de_bienvenida"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,14 +26,14 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="191dp"
         android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/volver"
         app:layout_constraintBottom_toBottomOf="@+id/persona_bienvenida"
         app:layout_constraintEnd_toEndOf="@+id/persona_bienvenida"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/persona_bienvenida"
         app:layout_constraintTop_toTopOf="@+id/persona_bienvenida"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/icono_atras"
-        android:contentDescription="@string/persona_btn_volver" />
+        app:srcCompat="@drawable/icono_atras" />
 
     <ImageButton
         android:id="@+id/persona_sin"

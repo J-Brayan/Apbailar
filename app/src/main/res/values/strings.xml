@@ -5,13 +5,9 @@
     <string name="boton_persona">botón para personas</string>
     <string name="boton_salir">salir</string>
     <string name="persona_bienvenida">div de bienvenida</string>
-    <string name="persona_btn_regresar">volver</string>
-    <string name="persona_btn_volver">TODO</string>
     <string name="div_de_bienvenida">div de bienvenida</string>
     <string name="salir">salir</string>
     <string name="btn_sin_exp">botón sin exp</string>
     <string name="btn_con_exp">botón con exp</string>
-    <string name="logosin">logoSin</string>
-    <string name="volversin">volverSin</string>
-
+    <string name="volver">volver vista anterior</string>
 </resources>
