@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_oscuro"
+    tools:context=".Persona">
+
+    <ImageView
+        android:id="@+id/persona_bienvenida"
+        android:layout_width="371dp"
+        android:layout_height="198dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/div_de_bienvenida"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/div_bienvenida" />
+
+    <ImageButton
+        android:id="@+id/persona_btn_regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="191dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/persona_bienvenida"
+        app:layout_constraintEnd_toEndOf="@+id/persona_bienvenida"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/persona_bienvenida"
+        app:layout_constraintTop_toTopOf="@+id/persona_bienvenida"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icono_atras"
+        android:contentDescription="@string/persona_btn_volver" />
+
+    <ImageButton
+        android:id="@+id/persona_sin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/btn_sin_exp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/persona_bienvenida"
+        app:layout_constraintVertical_bias="0.079"
+        app:srcCompat="@drawable/btn_sine" />
+
+    <ImageButton
+        android:id="@+id/persona_con"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/btn_con_exp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/persona_sin"
+        app:layout_constraintVertical_bias="0.7"
+        app:srcCompat="@drawable/btn_cone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

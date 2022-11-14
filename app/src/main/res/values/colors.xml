@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="vino">#790000</color>
+    <color name="gris_claro">#A6A6A6</color>
+    <color name="rojo">#EA1616</color>
+    <color name="azul">#3935FF</color>
+    <color name="verde">#33FF00</color>
+    <color name="naranja">#F9B300</color>
+    <color name="gris_inter">#A9A9A9</color>
+    <color name="gris_oscuro">#313131</color>
+    <color name="negro_mate">#181818</color>
+    <color name="negro">#000000</color>
+    <color name="blanco">#FFFFFF</color>
+
+</resources>
