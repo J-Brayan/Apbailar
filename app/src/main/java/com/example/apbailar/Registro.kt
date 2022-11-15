@@ -1,7 +1,9 @@
 package com.example.apbailar
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.example.apbailar.databinding.ActivityAcademiaBinding
 import com.example.apbailar.databinding.ActivityRegistroBinding
 
@@ -15,5 +17,13 @@ class Registro : AppCompatActivity() {
 
         union = ActivityRegistroBinding.inflate(layoutInflater)
         setContentView(union.root)
+
+        union.academiaBtnRegresarRegistro.setOnClickListener(this::volver)
+
+    }
+
+    private fun volver (view: View){
+        val intentoVol = Intent(this, Academia::class.java)
+        startActivity(intentoVol)
     }
 }
