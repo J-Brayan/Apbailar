@@ -19,10 +19,16 @@ class Academia : AppCompatActivity() {
         setContentView(union.root)
 
         union.academiaBtnRegresar.setOnClickListener(this::volver)
+        union.ingresar.setOnClickListener(this::irIngreso)
     }
 
     private fun volver (view: View){
         val intentoVol = Intent(this, MainActivity::class.java)
         startActivity(intentoVol)
+    }
+
+    private fun irIngreso (view: View){
+        val intentoIngreso = Intent(this, Ingreso::class.java)
+        startActivity(intentoIngreso)
     }
 }

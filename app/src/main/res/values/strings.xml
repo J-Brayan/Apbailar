@@ -10,4 +10,12 @@
     <string name="btn_sin_exp">botón sin exp</string>
     <string name="btn_con_exp">botón con exp</string>
     <string name="volver">volver vista anterior</string>
+    <string name="ingresar">botón de ingreso para academias</string>
+    <string name="registro">botón de registro para nueva academia</string>
+    <string name="etiqueta_identificador">Etiqueta identificador</string>
+    <string name="identificador">Cédula o Nit:</string>
+    <string name="clave">Contraseña:</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="identificador_et">Cédula o NIT</string>
+    <string name="olvido">¿Olvidó la contraseña?</string>
 </resources>
