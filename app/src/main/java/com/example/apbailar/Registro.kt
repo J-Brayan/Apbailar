@@ -19,11 +19,17 @@ class Registro : AppCompatActivity() {
         setContentView(union.root)
 
         union.academiaBtnRegresarRegistro.setOnClickListener(this::volver)
+        union.academiaBtnRegresarRegistro.setOnClickListener(this::irIngreso)
 
     }
 
     private fun volver (view: View){
         val intentoVol = Intent(this, Academia::class.java)
         startActivity(intentoVol)
+    }
+
+    private fun irIngreso (view: View){
+        val intentoIngreso = Intent(this, Ingreso::class.java)
+        startActivity(intentoIngreso)
     }
 }

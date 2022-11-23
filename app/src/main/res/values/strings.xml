@@ -15,7 +15,12 @@
     <string name="etiqueta_identificador">Etiqueta identificador</string>
     <string name="identificador">Cédula o Nit:</string>
     <string name="clave">Contraseña:</string>
+    <string name="clave2">Repita contraseña:</string>
     <string name="contrasenia">Contraseña</string>
-    <string name="identificador_et">Cédula o NIT</string>
     <string name="olvido">¿Olvidó la contraseña?</string>
+    <string name="boton_academia">botón para academias</string>
+    <string name="cedula_vista">Cédula o NIT:</string>
+    <string name="nombre">Nombre academia:</string>
+    <string name="correo">Correo:</string>
+    <string name="btn_guardar">Botón de guardar</string>
 </resources>

@@ -22,31 +22,36 @@
 
     <ImageButton
         android:id="@+id/ir_persona"
-        android:layout_width="198dp"
-        android:layout_height="336dp"
-        android:layout_marginStart="24dp"
+        android:layout_width="155dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="30dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="@string/boton_persona"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintHorizontal_bias="0.76"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83"
+        app:layout_constraintTop_toBottomOf="@+id/preguntaUsuario"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/persona_btn" />
 
     <ImageButton
         android:id="@+id/ir_academia"
-        android:layout_width="190dp"
-        android:layout_height="338dp"
+        android:layout_width="155dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="180dp"
         android:backgroundTint="#00FFFFFF"
-        android:contentDescription="botón para academias"
+        android:contentDescription="@string/boton_academia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832"
+        app:layout_constraintTop_toBottomOf="@+id/preguntaUsuario"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/academia_btn" />
 
     <ImageView
@@ -67,16 +72,17 @@
         android:id="@+id/salir"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_marginStart="352dp"
         android:layout_marginTop="18dp"
-        android:layout_marginEnd="11dp"
+        android:layout_marginEnd="3dp"
         android:layout_marginBottom="12dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="@string/salir"
         app:layout_constraintBottom_toTopOf="@+id/dinamicLogo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.963"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/_icon__close_outline_" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

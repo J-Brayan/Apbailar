@@ -65,7 +65,7 @@
         android:background="@drawable/entrada_datos"
         android:ems="10"
         android:fontFamily="@font/tajawal"
-        android:hint="@string/identificador_et"
+        android:hint="@string/identificador"
         android:inputType="number"
         android:padding="10dp"
         android:textColor="@color/negro"
